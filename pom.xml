@@ -25,5 +25,16 @@
 			</plugin>
 		</plugins>
 	</build>
-
+   <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://54.175.34.189:8081/repository/DEMO-RELEASE/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://54.175.34.189:8081/repository/DEMO-SNAP/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
