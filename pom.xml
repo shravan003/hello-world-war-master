@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://54.175.34.189:8081/repository/DEMO-RELEASE/</url>
+            <url>http://3.81.222.225:8081/repository/Demo-Release/</url>
         </repository>
 	 <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://54.175.34.189:8081/repository/DEMO-SNAP/</url>
+            <url>http://3.81.222.225:8081/repository/Demo-Snap/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
